@@ -1,0 +1,38 @@
+{
+    "name": "hauser/discountset",
+    "type": "library",
+    "description": "推客二合一SDK，支持淘宝联盟、京东联盟",
+    "keywords": ["淘宝客","淘宝客SDK","推广客","联盟"],
+    "homepage": "https://github.com/hauser/discountset",
+    "license": "MIT",
+	"config" : {
+		"optimize-autoloader" : true
+	},
+    "authors": [
+        {
+            "name": "Hauser",
+            "email": "hauser_k@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/support": "~5.8|~6.0|~7.0|~8.0",
+        "graham-campbell/manager": "^2.0|^3.0|^4.0",
+		"monolog/monolog" : "1.24.0",
+		"netresearch/jsonmapper" : "1.6.0",
+        "laravel/helpers": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hauser\\DiscountSet\\": "src/",
+			"ACES\\" : "security"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hauser\\DiscountSet\\ServiceProvider"
+            ]
+        }
+    }
+}
