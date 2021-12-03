@@ -3,7 +3,7 @@
     "type": "library",
     "description": "推客二合一SDK，支持淘宝联盟、京东联盟",
     "keywords": ["淘宝客","淘宝客SDK","推广客","联盟"],
-    "homepage": "https://github.com/hauser/discountset",
+    "homepage": "https://github.com/Hauser-k/discount-set",
     "license": "MIT",
 	"config" : {
 		"optimize-autoloader" : true
