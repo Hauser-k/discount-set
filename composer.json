@@ -18,7 +18,7 @@
         "php": ">=7.1.0",
         "illuminate/support": "~5.8|~6.0|~7.0|~8.0",
         "graham-campbell/manager": "^2.0|^3.0|^4.0",
-		"monolog/monolog" : "1.24.0",
+		"monolog/monolog" : "^2.3.0",
 		"netresearch/jsonmapper" : "1.6.0",
         "laravel/helpers": "^1.4"
     },
