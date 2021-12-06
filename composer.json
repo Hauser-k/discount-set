@@ -33,6 +33,9 @@
             "providers": [
                 "Hauser\\DiscountSet\\ServiceProvider"
             ]
+        },
+        "branch-alias": {
+            "dev-master": "1.0-dev"
         }
     }
 }
