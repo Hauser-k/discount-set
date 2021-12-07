@@ -1,4 +1,5 @@
 <?php
+namespace Hauser\DiscountSet\taobao\domain;
 
 /**
  * 有价券信息

@@ -1,4 +1,5 @@
 <?php
+namespace Hauser\DiscountSet\taobao\security;
 /**
 * yac实现cache
 */

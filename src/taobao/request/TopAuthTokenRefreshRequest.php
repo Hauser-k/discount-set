@@ -1,4 +1,4 @@
-<?php
+<?phpnamespace Hauser\DiscountSet\taobao\request;
 /**
  * TOP API: taobao.top.auth.token.refresh request
  * 

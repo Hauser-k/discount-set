@@ -1,4 +1,5 @@
 <?php
+namespace Hauser\DiscountSet\taobao\domain;
 
 /**
  * 传播形式对象列表

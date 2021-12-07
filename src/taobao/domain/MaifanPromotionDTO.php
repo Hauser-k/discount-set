@@ -1,4 +1,5 @@
 <?php
+namespace Hauser\DiscountSet\taobao\domain;
 
 /**
  * 猫超买返卡信息

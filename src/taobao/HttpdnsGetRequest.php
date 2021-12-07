@@ -1,5 +1,7 @@
 <?php
 
+namespace Hauser\DiscountSet\taobao;
+
 class HttpdnsGetRequest
 {
 	private $apiParas = array();

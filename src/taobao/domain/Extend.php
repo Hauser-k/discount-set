@@ -1,4 +1,5 @@
 <?php
+namespace Hauser\DiscountSet\taobao\domain;
 
 /**
  * 扩展属性

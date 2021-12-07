@@ -1,4 +1,5 @@
 <?php
+namespace Hauser\DiscountSet\taobao\security;
 /**
  * TOP API: taobao.top.sdk.feedback.upload request
  * 

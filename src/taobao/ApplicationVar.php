@@ -1,5 +1,7 @@
 <?php
 
+namespace Hauser\DiscountSet\taobao;
+
 class ApplicationVar
 {
 	var $save_file;

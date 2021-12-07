@@ -1,4 +1,4 @@
-<?php
+<?phpnamespace Hauser\DiscountSet\taobao\request;
 /**
  * TOP API: taobao.openuid.get.bytrade request
  * 

@@ -1,4 +1,7 @@
 <?php
+
+namespace Hauser\DiscountSet\taobao;
+
 class TopClient
 {
 	public $appkey;

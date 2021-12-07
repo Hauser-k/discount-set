@@ -1,4 +1,7 @@
 <?php
+
+namespace Hauser\DiscountSet\taobao;
+
 class ClusterTopClient extends TopClient {
 
 	private static $dnsconfig;

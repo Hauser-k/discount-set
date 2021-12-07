@@ -1,5 +1,5 @@
 <?php
-
+namespace Hauser\DiscountSet\taobao\security;
 class TopSecretGetRequest
 {
 	private $apiParas = array();

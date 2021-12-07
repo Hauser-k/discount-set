@@ -1,13 +1,16 @@
 <?php
+
+namespace Hauser\DiscountSet\taobao;
+
 /**
- * APIÈë²Î¾²Ì¬¼ì²éÀà
- * ¿ÉÒÔ¶ÔAPIµÄ²ÎÊýÀàÐÍ¡¢³¤¶È¡¢×î´óÖµµÈ½øÐÐÐ£Ñé
+ * APIï¿½ï¿½Î¾ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½
+ * ï¿½ï¿½ï¿½Ô¶ï¿½APIï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¡ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½Öµï¿½È½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½
  *
  **/
 class RequestCheckUtil
 {
 	/**
-	 * Ð£Ñé×Ö¶Î fieldName µÄÖµ$value·Ç¿Õ
+	 * Ð£ï¿½ï¿½ï¿½Ö¶ï¿½ fieldName ï¿½ï¿½Öµ$valueï¿½Ç¿ï¿½
 	 *
 	 **/
 	public static function checkNotNull($value,$fieldName) {
@@ -18,7 +21,7 @@ class RequestCheckUtil
 	}
 
 	/**
-	 * ¼ìÑé×Ö¶ÎfieldNameµÄÖµvalue µÄ³¤¶È
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½Ö¶ï¿½fieldNameï¿½ï¿½Öµvalue ï¿½Ä³ï¿½ï¿½ï¿½
 	 *
 	 **/
 	public static function checkMaxLength($value,$maxLength,$fieldName){		
@@ -28,7 +31,7 @@ class RequestCheckUtil
 	}
 
 	/**
-	 * ¼ìÑé×Ö¶ÎfieldNameµÄÖµvalueµÄ×î´óÁÐ±í³¤¶È
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½Ö¶ï¿½fieldNameï¿½ï¿½Öµvalueï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½ï¿½ï¿½
 	 *
 	 **/
 	public static function checkMaxListSize($value,$maxSize,$fieldName) {	
@@ -43,7 +46,7 @@ class RequestCheckUtil
 	}
 
 	/**
-	 * ¼ìÑé×Ö¶ÎfieldNameµÄÖµvalue µÄ×î´óÖµ
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½Ö¶ï¿½fieldNameï¿½ï¿½Öµvalue ï¿½ï¿½ï¿½ï¿½ï¿½Öµ
 	 *
 	 **/
 	public static function checkMaxValue($value,$maxValue,$fieldName){	
@@ -59,7 +62,7 @@ class RequestCheckUtil
 	}
 
 	/**
-	 * ¼ìÑé×Ö¶ÎfieldNameµÄÖµvalue µÄ×îÐ¡Öµ
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½Ö¶ï¿½fieldNameï¿½ï¿½Öµvalue ï¿½ï¿½ï¿½ï¿½Ð¡Öµ
 	 *
 	 **/
 	public static function checkMinValue($value,$minValue,$fieldName) {
@@ -75,7 +78,7 @@ class RequestCheckUtil
 	}
 
 	/**
-	 * ¼ìÑé×Ö¶ÎfieldNameµÄÖµvalueÊÇ·ñÊÇnumber
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½Ö¶ï¿½fieldNameï¿½ï¿½Öµvalueï¿½Ç·ï¿½ï¿½ï¿½number
 	 *
 	 **/
 	protected static function checkNumeric($value,$fieldName) {
@@ -84,7 +87,7 @@ class RequestCheckUtil
 	}
 
 	/**
-	 * Ð£Ñé$valueÊÇ·ñ·Ç¿Õ
+	 * Ð£ï¿½ï¿½$valueï¿½Ç·ï¿½Ç¿ï¿½
 	 *  if not set ,return true;
 	 *	if is null , return true;
 	 *	

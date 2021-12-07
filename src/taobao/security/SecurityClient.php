@@ -1,5 +1,8 @@
 <?php
 
+namespace Hauser\DiscountSet\taobao\security;
+
+
 	include './SecurityUtil.php';
 	include './SecretGetRequest.php';
 	include './TopSdkFeedbackUploadRequest.php';

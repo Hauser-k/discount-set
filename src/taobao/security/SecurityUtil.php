@@ -1,5 +1,5 @@
 <?php
-
+namespace Hauser\DiscountSet\taobao\security;
 	include './SecretContext.php';
 	include './MagicCrypt.php';
 

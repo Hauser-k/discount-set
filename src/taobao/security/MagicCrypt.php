@@ -1,4 +1,5 @@
 <?php
+namespace Hauser\DiscountSet\taobao\security;
     class Security {
 
         private static $iv = "0102030405060708";

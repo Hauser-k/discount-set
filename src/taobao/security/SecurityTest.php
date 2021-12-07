@@ -1,5 +1,5 @@
 <?php
-
+namespace Hauser\DiscountSet\taobao\security;
 	include './SecurityClient.php';
 	include './YacCache.php';
 

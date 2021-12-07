@@ -1,5 +1,5 @@
 <?php
-
+namespace Hauser\DiscountSet\taobao\security;
 	class SecretContext
 	{
 		var $secret;

@@ -1,4 +1,5 @@
 <?php
+namespace Hauser\DiscountSet\taobao\domain;
 
 /**
  * 前N件佣金信息-前N件佣金生效或预热时透出以下字段

@@ -1,4 +1,7 @@
 <?php
+
+namespace Hauser\DiscountSet\taobao;
+
 /**
  * 返回的默认类
  * 
