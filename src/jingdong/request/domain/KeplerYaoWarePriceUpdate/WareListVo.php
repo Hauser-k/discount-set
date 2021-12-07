@@ -1,5 +1,5 @@
 <?php
-namespace KeplerYaoWarePriceUpdate;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KeplerYaoWarePriceUpdate;
 class WareListVo{
 
     private $params=array();

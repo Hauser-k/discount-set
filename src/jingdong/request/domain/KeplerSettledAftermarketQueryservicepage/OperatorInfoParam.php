@@ -1,5 +1,5 @@
 <?php
-namespace KeplerSettledAftermarketQueryservicepage;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KeplerSettledAftermarketQueryservicepage;
 class OperatorInfoParam{
 
     private $params=array();

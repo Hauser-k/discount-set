@@ -1,5 +1,5 @@
 <?php
-namespace KeplerPushmsgSendSingleSubMsg;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KeplerPushmsgSendSingleSubMsg;
 class Param{
 
     private $params=array();

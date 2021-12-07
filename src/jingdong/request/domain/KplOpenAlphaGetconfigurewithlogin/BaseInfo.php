@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenAlphaGetconfigurewithlogin;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenAlphaGetconfigurewithlogin;
 class BaseInfo{
 
     private $params=array();

@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenUserRegisterValidate;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenUserRegisterValidate;
 class UserStateReq{
 
     private $params=array();

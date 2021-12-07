@@ -1,5 +1,5 @@
 <?php
-namespace AfterSaleAuditCancelQuery;
+namespace Hauser\DiscountSet\jingdong\Request\domain\AfterSaleAuditCancelQuery;
 class Param{
 
     private $params=array();

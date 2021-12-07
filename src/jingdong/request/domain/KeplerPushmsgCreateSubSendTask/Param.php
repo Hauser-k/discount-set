@@ -1,5 +1,5 @@
 <?php
-namespace KeplerPushmsgCreateSubSendTask;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KeplerPushmsgCreateSubSendTask;
 class Param{
 
     private $params=array();

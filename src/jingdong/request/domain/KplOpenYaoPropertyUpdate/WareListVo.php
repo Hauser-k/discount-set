@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenYaoPropertyUpdate;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenYaoPropertyUpdate;
 class WareListVo{
 
     private $params=array();

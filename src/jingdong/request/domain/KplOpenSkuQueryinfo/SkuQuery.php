@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenSkuQueryinfo;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenSkuQueryinfo;
 class SkuQuery{
 
     private $params=array();

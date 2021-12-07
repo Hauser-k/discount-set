@@ -1,5 +1,7 @@
 <?php
-namespace AfterSaleAfsApplyCreate;
+
+namespace Hauser\DiscountSet\jingdong\Request\domain\AfterSaleAfsApplyCreate;
+
 class AsCustomerDto{
 
     private $params=array();

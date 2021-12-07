@@ -1,5 +1,5 @@
 <?php
-namespace KeplerPushmsgGetAppConfigTemplateList;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KeplerPushmsgGetAppConfigTemplateList;
 class Maps{
 
     private $params=array();

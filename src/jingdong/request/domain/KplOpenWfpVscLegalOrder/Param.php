@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenWfpVscLegalOrder;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenWfpVscLegalOrder;
 class Param{
 
     private $params=array();

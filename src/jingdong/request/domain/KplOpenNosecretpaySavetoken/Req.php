@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenNosecretpaySavetoken;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenNosecretpaySavetoken;
 class Req{
 
     private $params=array();

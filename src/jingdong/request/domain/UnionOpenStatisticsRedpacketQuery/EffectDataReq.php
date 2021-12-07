@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenStatisticsRedpacketQuery;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenStatisticsRedpacketQuery;
 class EffectDataReq{
 
     private $params=array();

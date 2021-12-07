@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenChannelInvitecodeGet;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenChannelInvitecodeGet;
 class ChannelInviteReq{
 
     private $params=array();

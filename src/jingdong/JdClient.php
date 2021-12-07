@@ -1,4 +1,9 @@
 <?php
+
+namespace Hauser\DiscountSet\jingdong;
+
+use Hauser\DiscountSet\jingdong\RequestCheckUtil;
+
 class JdClient
 {
 	public $serverUrl = "https://api.jd.com/routerjson";
@@ -49,7 +54,7 @@ class JdClient
 		if ($this->connectTimeout) {
 			curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $this->connectTimeout);
 		}
-		//https ÇëÇó
+		//https ï¿½ï¿½ï¿½ï¿½
 		if(strlen($url) > 5 && strtolower(substr($url,0,5)) == "https" ) {
 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
@@ -61,11 +66,11 @@ class JdClient
 			$postMultipart = false;
 			foreach ($postFields as $k => $v)
 			{
-				if("@" != substr($v, 0, 1))//ÅÐ¶ÏÊÇ²»ÊÇÎÄ¼þÉÏ´«
+				if("@" != substr($v, 0, 1))//ï¿½Ð¶ï¿½ï¿½Ç²ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½Ï´ï¿½
 				{
 					$postBodyString .= "$k=" . urlencode($v) . "&"; 
 				}
-				else//ÎÄ¼þÉÏ´«ÓÃmultipart/form-data£¬·ñÔòÓÃwww-form-urlencoded
+				else//ï¿½Ä¼ï¿½ï¿½Ï´ï¿½ï¿½ï¿½multipart/form-dataï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½www-form-urlencoded
 				{
 					$postMultipart = true;
 				}
@@ -101,7 +106,7 @@ class JdClient
 
 	public function execute($request, $access_token = null)
 	{
-		//×é×°ÏµÍ³²ÎÊý
+		//ï¿½ï¿½×°ÏµÍ³ï¿½ï¿½ï¿½ï¿½
         $sysParams["app_key"] = $this->appKey;
         $version = $request->getVersion();
 
@@ -113,19 +118,19 @@ class JdClient
            $sysParams["access_token"] = $access_token;
         }
 
-		//»ñÈ¡ÒµÎñ²ÎÊý
+		//ï¿½ï¿½È¡Òµï¿½ï¿½ï¿½ï¿½ï¿½
 		$apiParams = $request->getApiParas();
 		$sysParams[$this->json_param_key] = $apiParams;
 
-		//Ç©Ãû
+		//Ç©ï¿½ï¿½
 		$sysParams["sign"] = $this->generateSign($sysParams);
-		//ÏµÍ³²ÎÊý·ÅÈëGETÇëÇó´®
+		//ÏµÍ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½GETï¿½ï¿½ï¿½ï¿½
 		$requestUrl = $this->serverUrl . "?";
 		foreach ($sysParams as $sysParamKey => $sysParamValue)
 		{
 			$requestUrl .= "$sysParamKey=" . urlencode($sysParamValue) . "&";
 		}
-		//·¢ÆðHTTPÇëÇó
+		//ï¿½ï¿½ï¿½ï¿½HTTPï¿½ï¿½ï¿½ï¿½
 		try
 		{
 			$resp = $this->curl($requestUrl, $apiParams);
@@ -137,7 +142,7 @@ class JdClient
 			return $result;
 		}
 
-		//½âÎöJD·µ»Ø½á¹û
+		//ï¿½ï¿½ï¿½ï¿½JDï¿½ï¿½ï¿½Ø½ï¿½ï¿½
 		$respWellFormed = false;
 		if ("json" == $this->format)
 		{
@@ -160,7 +165,7 @@ class JdClient
 			}
 		}
 
-		//·µ»ØµÄHTTPÎÄ±¾²»ÊÇ±ê×¼JSON»òÕßXML£¬¼ÇÏÂ´íÎóÈÕÖ¾
+		//ï¿½ï¿½ï¿½Øµï¿½HTTPï¿½Ä±ï¿½ï¿½ï¿½ï¿½Ç±ï¿½×¼JSONï¿½ï¿½ï¿½ï¿½XMLï¿½ï¿½ï¿½ï¿½ï¿½Â´ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾
 		if (false === $respWellFormed)
 		{
 			$result->code = 0;

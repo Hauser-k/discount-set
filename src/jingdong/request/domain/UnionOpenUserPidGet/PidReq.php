@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenUserPidGet;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenUserPidGet;
 class PidReq{
 
     private $params=array();

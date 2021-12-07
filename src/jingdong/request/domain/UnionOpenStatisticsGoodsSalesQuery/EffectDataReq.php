@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenStatisticsGoodsSalesQuery;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenStatisticsGoodsSalesQuery;
 class EffectDataReq{
 
     private $params=array();

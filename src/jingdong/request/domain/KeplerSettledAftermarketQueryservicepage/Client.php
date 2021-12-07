@@ -1,5 +1,5 @@
 <?php
-namespace KeplerSettledAftermarketQueryservicepage;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KeplerSettledAftermarketQueryservicepage;
 class Client{
 
     private $params=array();

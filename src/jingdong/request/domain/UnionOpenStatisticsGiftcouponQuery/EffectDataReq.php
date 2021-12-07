@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenStatisticsGiftcouponQuery;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenStatisticsGiftcouponQuery;
 class EffectDataReq{
 
     private $params=array();

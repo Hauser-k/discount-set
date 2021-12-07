@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenBatchConvertCpslink;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenBatchConvertCpslink;
 class KeplerUrlparam{
 
     private $params=array();

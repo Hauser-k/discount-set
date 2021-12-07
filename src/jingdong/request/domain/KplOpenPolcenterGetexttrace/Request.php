@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenPolcenterGetexttrace;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenPolcenterGetexttrace;
 class Request{
 
     private $params=array();

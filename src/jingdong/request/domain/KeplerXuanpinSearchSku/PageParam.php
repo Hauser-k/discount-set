@@ -1,5 +1,5 @@
 <?php
-namespace KeplerXuanpinSearchSku;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KeplerXuanpinSearchSku;
 class PageParam{
 
     private $params=array();

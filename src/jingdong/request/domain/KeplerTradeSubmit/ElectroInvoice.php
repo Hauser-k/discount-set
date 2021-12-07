@@ -1,5 +1,5 @@
 <?php
-namespace KeplerTradeSubmit;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KeplerTradeSubmit;
 class ElectroInvoice{
 
     private $params=array();

@@ -1,5 +1,5 @@
 <?php
-namespace OpenOrderSplitDeliverNew;
+namespace Hauser\DiscountSet\jingdong\Request\domain\OpenOrderSplitDeliverNew;
 class OrderExtInfo{
 
     private $params=array();

@@ -1,5 +1,5 @@
 <?php
-namespace AfterSaleAvailableNumberCompQuery;
+namespace Hauser\DiscountSet\jingdong\Request\domain\AfterSaleAvailableNumberCompQuery;
 class Param{
 
     private $params=array();

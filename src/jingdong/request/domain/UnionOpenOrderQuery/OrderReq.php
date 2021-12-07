@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenOrderQuery;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenOrderQuery;
 class OrderReq{
 
     private $params=array();

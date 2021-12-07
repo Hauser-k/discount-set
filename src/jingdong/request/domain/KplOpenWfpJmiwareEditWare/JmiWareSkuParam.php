@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenWfpJmiwareEditWare;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenWfpJmiwareEditWare;
 class JmiWareSkuParam{
 
     private $params=array();

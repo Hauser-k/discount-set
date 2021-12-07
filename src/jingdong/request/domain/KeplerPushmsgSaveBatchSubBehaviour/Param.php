@@ -1,5 +1,5 @@
 <?php
-namespace KeplerPushmsgSaveBatchSubBehaviour;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KeplerPushmsgSaveBatchSubBehaviour;
 class Param{
 
     private $params=array();

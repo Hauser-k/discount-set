@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenGoodsLinkQuery;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenGoodsLinkQuery;
 class GoodsReq{
 
     private $params=array();

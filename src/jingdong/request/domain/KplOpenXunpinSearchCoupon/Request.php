@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenXunpinSearchCoupon;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenXunpinSearchCoupon;
 class Request{
 
     private $params=array();

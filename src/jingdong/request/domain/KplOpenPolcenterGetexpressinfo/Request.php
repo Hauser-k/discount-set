@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenPolcenterGetexpressinfo;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenPolcenterGetexpressinfo;
 class Request{
 
     private $params=array();

@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenExtraDeliverymanValidate;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenExtraDeliverymanValidate;
 class DeliverymanReq{
 
     private $params=array();

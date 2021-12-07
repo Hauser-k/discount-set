@@ -1,5 +1,5 @@
 <?php
-namespace KeplerTradeSubmit;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KeplerTradeSubmit;
 class ClientInfo{
 
     private $params=array();

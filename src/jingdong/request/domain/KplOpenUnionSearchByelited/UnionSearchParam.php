@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenUnionSearchByelited;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenUnionSearchByelited;
 class UnionSearchParam{
 
     private $params=array();

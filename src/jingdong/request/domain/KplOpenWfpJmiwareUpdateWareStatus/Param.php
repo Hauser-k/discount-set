@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenWfpJmiwareUpdateWareStatus;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenWfpJmiwareUpdateWareStatus;
 class Param{
 
     private $params=array();

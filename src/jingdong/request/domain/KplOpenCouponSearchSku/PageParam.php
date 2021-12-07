@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenCouponSearchSku;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenCouponSearchSku;
 class PageParam{
 
     private $params=array();

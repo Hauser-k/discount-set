@@ -1,5 +1,5 @@
 <?php
-namespace OrderUniteSubmit;
+namespace Hauser\DiscountSet\jingdong\Request\domain\OrderUniteSubmit;
 class Sku{
 
     private $params=array();

@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenSearchAssociationalWord;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenSearchAssociationalWord;
 class MapResuest{
 
     private $params=array();

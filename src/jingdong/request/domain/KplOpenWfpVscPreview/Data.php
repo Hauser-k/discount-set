@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenWfpVscPreview;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenWfpVscPreview;
 class Data{
 
     private $params=array();

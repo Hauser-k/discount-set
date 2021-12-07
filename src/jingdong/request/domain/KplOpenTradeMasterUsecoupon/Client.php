@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenTradeMasterUsecoupon;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenTradeMasterUsecoupon;
 class Client{
 
     private $params=array();

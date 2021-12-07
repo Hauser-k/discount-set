@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenWfpJmiwareAddWare;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenWfpJmiwareAddWare;
 class Features{
 
     private $params=array();

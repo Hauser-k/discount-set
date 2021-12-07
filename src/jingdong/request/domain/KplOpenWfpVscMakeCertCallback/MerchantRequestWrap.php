@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenWfpVscMakeCertCallback;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenWfpVscMakeCertCallback;
 class MerchantRequestWrap{
 
     private $params=array();

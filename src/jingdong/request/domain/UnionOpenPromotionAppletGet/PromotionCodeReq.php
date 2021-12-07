@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenPromotionAppletGet;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenPromotionAppletGet;
 class PromotionCodeReq{
 
     private $params=array();

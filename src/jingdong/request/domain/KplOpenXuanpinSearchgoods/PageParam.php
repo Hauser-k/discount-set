@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenXuanpinSearchgoods;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenXuanpinSearchgoods;
 class PageParam{
 
     private $params=array();

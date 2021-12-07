@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenWfpVscVerifiedNotify;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenWfpVscVerifiedNotify;
 class Data{
 
     private $params=array();

@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenNosecretpayGetsignurl;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenNosecretpayGetsignurl;
 class Req{
 
     private $params=array();

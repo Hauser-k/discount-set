@@ -1,4 +1,9 @@
 <?php
+
+
+namespace Hauser\DiscountSet\jingdong\Request;
+
+
 class MfaUserUnifiedAuthenticationRequest
 {
 

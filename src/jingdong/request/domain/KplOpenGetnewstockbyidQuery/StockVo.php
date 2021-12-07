@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenGetnewstockbyidQuery;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenGetnewstockbyidQuery;
 class StockVo{
 
     private $params=array();

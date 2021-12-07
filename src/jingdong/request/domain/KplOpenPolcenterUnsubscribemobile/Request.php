@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenPolcenterUnsubscribemobile;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenPolcenterUnsubscribemobile;
 class Request{
 
     private $params=array();

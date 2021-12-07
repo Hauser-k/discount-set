@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenYaoMultipriceUpdate;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenYaoMultipriceUpdate;
 class ListVo{
 
     private $params=array();

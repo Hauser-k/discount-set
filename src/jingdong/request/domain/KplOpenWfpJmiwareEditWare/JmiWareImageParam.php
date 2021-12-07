@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenWfpJmiwareEditWare;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenWfpJmiwareEditWare;
 class JmiWareImageParam{
 
     private $params=array();

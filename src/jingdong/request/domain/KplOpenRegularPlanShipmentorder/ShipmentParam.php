@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenRegularPlanShipmentorder;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenRegularPlanShipmentorder;
 class ShipmentParam{
 
     private $params=array();

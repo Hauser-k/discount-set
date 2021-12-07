@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenChannelRelationGet;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenChannelRelationGet;
 class ChannelRelationGetReq{
 
     private $params=array();

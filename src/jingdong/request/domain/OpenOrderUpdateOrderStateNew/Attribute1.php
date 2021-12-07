@@ -1,5 +1,5 @@
 <?php
-namespace OpenOrderUpdateOrderStateNew;
+namespace Hauser\DiscountSet\jingdong\Request\domain\OpenOrderUpdateOrderStateNew;
 class Attribute1{
 
     private $params=array();

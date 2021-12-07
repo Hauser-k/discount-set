@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenPositionQuery;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenPositionQuery;
 class PositionReq{
 
     private $params=array();

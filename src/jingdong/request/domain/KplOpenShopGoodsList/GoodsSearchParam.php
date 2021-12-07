@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenShopGoodsList;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenShopGoodsList;
 class GoodsSearchParam{
 
     private $params=array();

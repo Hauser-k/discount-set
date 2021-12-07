@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenXimalayaGetresource;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenXimalayaGetresource;
 class Wrap{
 
     private $params=array();

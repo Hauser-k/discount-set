@@ -1,5 +1,5 @@
 <?php
-namespace OrderPromiseCalendarGet;
+namespace Hauser\DiscountSet\jingdong\Request\domain\OrderPromiseCalendarGet;
 class SkuVo{
 
     private $params=array();

@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenCommentCommentlist;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenCommentCommentlist;
 class Param{
 
     private $params=array();

@@ -1,5 +1,5 @@
 <?php
-namespace KeplerPushmsgSendBatchMsg;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KeplerPushmsgSendBatchMsg;
 class Data{
 
     private $params=array();

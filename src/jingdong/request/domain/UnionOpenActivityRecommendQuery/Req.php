@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenActivityRecommendQuery;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenActivityRecommendQuery;
 class Req{
 
     private $params=array();

@@ -1,5 +1,5 @@
 <?php
-namespace KeplerOrderGetordertrack;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KeplerOrderGetordertrack;
 class Client{
 
     private $params=array();

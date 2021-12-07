@@ -1,5 +1,5 @@
 <?php
-namespace AfterSaleSendSkuUpdate;
+namespace Hauser\DiscountSet\jingdong\Request\domain\AfterSaleSendSkuUpdate;
 class Param{
 
     private $params=array();

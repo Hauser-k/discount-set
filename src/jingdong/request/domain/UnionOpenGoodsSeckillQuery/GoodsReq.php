@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenGoodsSeckillQuery;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenGoodsSeckillQuery;
 class GoodsReq{
 
     private $params=array();

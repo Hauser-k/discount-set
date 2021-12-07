@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenExtraRedpacketReceiveValidate;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenExtraRedpacketReceiveValidate;
 class Req{
 
     private $params=array();

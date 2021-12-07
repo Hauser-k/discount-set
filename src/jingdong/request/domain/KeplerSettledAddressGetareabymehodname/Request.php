@@ -1,5 +1,5 @@
 <?php
-namespace KeplerSettledAddressGetareabymehodname;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KeplerSettledAddressGetareabymehodname;
 class Request{
 
     private $params=array();

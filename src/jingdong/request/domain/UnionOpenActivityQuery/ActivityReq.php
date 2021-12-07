@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenActivityQuery;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenActivityQuery;
 class ActivityReq{
 
     private $params=array();

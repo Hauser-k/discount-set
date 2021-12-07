@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenYaoOrdersyncUpdatestate;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenYaoOrdersyncUpdatestate;
 class DeliverInfo{
 
     private $params=array();

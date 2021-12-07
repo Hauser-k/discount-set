@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenCpsConvertKeplerurl;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenCpsConvertKeplerurl;
 class Request{
 
     private $params=array();

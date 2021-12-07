@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenOrderInfoQueryorder;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenOrderInfoQueryorder;
 class Var1{
 
     private $params=array();

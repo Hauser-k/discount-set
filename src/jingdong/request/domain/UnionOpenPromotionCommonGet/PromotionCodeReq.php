@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenPromotionCommonGet;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenPromotionCommonGet;
 class PromotionCodeReq{
 
     private $params=array();

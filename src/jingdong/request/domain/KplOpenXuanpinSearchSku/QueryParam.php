@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenXuanpinSearchSku;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenXuanpinSearchSku;
 class QueryParam{
 
     private $params=array();

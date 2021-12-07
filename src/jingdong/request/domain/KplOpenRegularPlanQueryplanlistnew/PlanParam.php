@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenRegularPlanQueryplanlistnew;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenRegularPlanQueryplanlistnew;
 class PlanParam{
 
     private $params=array();

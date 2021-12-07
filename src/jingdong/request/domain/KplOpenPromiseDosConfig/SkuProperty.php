@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenPromiseDosConfig;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenPromiseDosConfig;
 class SkuProperty{
 
     private $params=array();

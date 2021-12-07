@@ -1,5 +1,5 @@
 <?php
-namespace KplOpenYaoShelfstateBatchupdate;
+namespace Hauser\DiscountSet\jingdong\Request\domain\KplOpenYaoShelfstateBatchupdate;
 class WareListVo{
 
     private $params=array();

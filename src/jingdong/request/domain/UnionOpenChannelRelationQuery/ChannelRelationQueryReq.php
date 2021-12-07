@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenChannelRelationQuery;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenChannelRelationQuery;
 class ChannelRelationQueryReq{
 
     private $params=array();

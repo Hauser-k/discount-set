@@ -1,5 +1,5 @@
 <?php
-namespace AfterSaleWareReturnJdCompQuery;
+namespace Hauser\DiscountSet\jingdong\Request\domain\AfterSaleWareReturnJdCompQuery;
 class Param{
 
     private $params=array();

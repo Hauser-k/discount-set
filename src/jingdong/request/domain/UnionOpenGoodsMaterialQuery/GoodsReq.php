@@ -1,5 +1,5 @@
 <?php
-namespace UnionOpenGoodsMaterialQuery;
+namespace Hauser\DiscountSet\jingdong\Request\domain\UnionOpenGoodsMaterialQuery;
 class GoodsReq{
 
     private $params=array();
